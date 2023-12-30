@@ -47,11 +47,6 @@ function Row({ title, fetchUrl, rowId }) {
           className="flex flex-row overflow-x-auto scroll-hide"
         >
           <div className="relative flex whitespace-normal gap-1 mt-[30px] mb-[120px]">
-<<<<<<< HEAD
-=======
-            {" "}
-            {/* my-[200px] */}
->>>>>>> 79b776bb4c0bf13b7c3e9f6cbf6be65d7a8ccdb6
             {movies &&
               movies.map((item, index) => (
                 <DefaultCard
@@ -70,11 +65,7 @@ function Row({ title, fetchUrl, rowId }) {
         <MdChevronRight
           onClick={scrollRight}
           size={40}
-<<<<<<< HEAD
           className="hidden group-hover:block bg-white transition-transform ease-in-out duration-300 text-black rounded-full absolute top-[30%] -translate-y-[30%] right-0 opacity-50 hover:opacity-100 cursor-pointer z-10"
-=======
-          className="hidden group-hover:block bg-white text-black rounded-full absolute top-[30%] -translate-y-[30%] right-0 opacity-50 hover:opacity-100 cursor-pointer z-10"
->>>>>>> 79b776bb4c0bf13b7c3e9f6cbf6be65d7a8ccdb6
         />
       </div>
     </>
